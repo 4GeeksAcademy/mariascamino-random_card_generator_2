@@ -1,5 +1,41 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(22, 149, 49);
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.top-left, .bottom-right {
+    font-size: 50px;
+    padding: 12px;
+}
+
+.center-center {
+    font-size: 75px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heart, .diamond {
+    color: red;
+}
+
+.spade, .club {
+    color: black
+}
+
+.center-center {
+    color: black
+}
+
+.btn {
+    margin-top: 20px;
+
 }
