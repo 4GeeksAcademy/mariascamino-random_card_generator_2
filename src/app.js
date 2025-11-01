@@ -2,7 +2,6 @@ import "bootstrap";
 import "./style.css";
 
 window.onload = function () {
-  //write your code here
 
   const totalCard = document.querySelector(".card");
   const topValue = document.querySelector(".top-left");
